@@ -1,2 +1,12 @@
 USE master
 GO
+
+IF DB_ID('') IS NOT NULL
+DROP DATABASE
+IF DB_ID ('') IS NULL
+CREATE DATABASE
+
+------
+
+USE
+GO
